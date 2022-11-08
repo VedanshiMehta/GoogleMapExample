@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f9cb4d91-b1fd-4772-b0b6-3c21ec621194</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedDeliveryPersonProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DeliverDetailDataBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DeliveryDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DeliveryPerson.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ErrorModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ValidationClass.cs" />
+  </ItemGroup>
+</Project>

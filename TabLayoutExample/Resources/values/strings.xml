@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabLayoutExample</string>
+    <string name="action_settings">Settings</string>
+	<string name="storage_permission_title">Location Permission</string>
+	<string name="storage_permission_message">This Permission is need for retrieving location</string>
+	<string name="cancel">CANCEL</string>
+	<string name="ok">OK</string>
+	<string name="grant">GRANT</string>
+</resources>
